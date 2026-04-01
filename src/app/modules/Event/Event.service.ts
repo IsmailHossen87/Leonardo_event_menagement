@@ -127,7 +127,7 @@ const getAllEvents = async (
 }> => {
      const { isMyEvents, ...rest } = query;
 
-     const myRegistrations = await EvenRegistration.find({ user: user.id }).select("event");
+     const myRegistrations = await EvenRegistration.find({ user: user.id, verified: true }).select("event");
      const registeredEventIds = myRegistrations.map(reg => reg.event);
 
      let queryBuilder;

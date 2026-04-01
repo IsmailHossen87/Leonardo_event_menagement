@@ -6,11 +6,6 @@
     "auditLog": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\error\\.774c58589494768b34bd3a9052808fb969a72b69-audit.json",
     "files": [
         {
-            "date": 1774934178516,
-            "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\error\\31-03-2026-11-error.log",
-            "hash": "421a0436f4c3e68d8f411de30f2461bf1a51c89d87e1aacb769a4637f4ac8002"
-        },
-        {
             "date": 1775017231426,
             "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\error\\01-04-2026-10-error.log",
             "hash": "59d7bd4d7a3d9a42cb46db19b8056e598fe6e09de49a484d1e1a325a9628b66b"
@@ -19,6 +14,11 @@
             "date": 1775019862763,
             "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\error\\01-04-2026-11-error.log",
             "hash": "feacfa7fbcbb1e2b76bbb78f6573c45b08a9d3df87632d09aaa3377e85fd7a0c"
+        },
+        {
+            "date": 1775023861232,
+            "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\error\\01-04-2026-12-error.log",
+            "hash": "2106470e99cbf1c2a6e67b77933c19453f8e6a32f7299a0c902743518a5167f2"
         }
     ],
     "hashType": "sha256"

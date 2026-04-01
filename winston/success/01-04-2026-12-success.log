@@ -1,0 +1,132 @@
+Wed Apr 01 2026 12:10:27 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 439.802 ms
+Wed Apr 01 2026 12:10:30 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 279.575 ms
+Wed Apr 01 2026 12:10:36 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccad75cd61c87a2967eaf6 200 - 235.299 ms
+Wed Apr 01 2026 12:10:47 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:10:47 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5949.863 ms
+Wed Apr 01 2026 12:11:16 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/auth/login 200 - 284.637 ms
+Wed Apr 01 2026 12:12:12 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 217.434 ms
+Wed Apr 01 2026 12:18:58 [SERVER-NAME] info: 10.10.7.105 - PATCH /api/v1/registations/verify-event/69ccb6e1a984fb0499fab9e9 200 - 199.592 ms
+Wed Apr 01 2026 12:23:31 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 305.584 ms
+Wed Apr 01 2026 12:23:49 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/auth/login 200 - 288.579 ms
+Wed Apr 01 2026 12:24:20 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/events 200 - 631.040 ms
+Wed Apr 01 2026 12:24:22 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 336.373 ms
+Wed Apr 01 2026 12:24:23 [SERVER-NAME] info: 10.10.7.34 - GET /uploads/image/prescription_-1775024659889.png 200 - 16.057 ms
+Wed Apr 01 2026 12:24:24 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccba14a984fb0499faba32 200 - 237.658 ms
+Wed Apr 01 2026 12:24:37 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:24:37 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5988.887 ms
+Wed Apr 01 2026 12:26:41 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/events 200 - 502.554 ms
+Wed Apr 01 2026 12:27:13 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/events 200 - 489.296 ms
+Wed Apr 01 2026 12:27:23 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 895.146 ms
+Wed Apr 01 2026 12:27:24 [SERVER-NAME] info: 10.10.7.34 - GET /uploads/image/prescription_-1775024833290.png 200 - 0.891 ms
+Wed Apr 01 2026 12:27:24 [SERVER-NAME] info: 10.10.7.34 - GET /uploads/image/prescription_-1775024800997.png 200 - 1.349 ms
+Wed Apr 01 2026 12:27:27 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbaa1a984fb0499faba52 200 - 226.907 ms
+Wed Apr 01 2026 12:27:37 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:27:37 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5421.430 ms
+Wed Apr 01 2026 12:27:49 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 218.089 ms
+Wed Apr 01 2026 12:31:48 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbaa1a984fb0499faba52 200 - 526.289 ms
+Wed Apr 01 2026 12:35:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:35:26 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:35:26 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:35:26 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:36:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:36:8 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:36:8 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:36:8 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:36:9 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 725.676 ms
+Wed Apr 01 2026 12:36:11 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 349.272 ms
+Wed Apr 01 2026 12:36:13 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 272.497 ms
+Wed Apr 01 2026 12:36:15 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 335.196 ms
+Wed Apr 01 2026 12:36:16 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 274.188 ms
+Wed Apr 01 2026 12:36:20 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 328.940 ms
+Wed Apr 01 2026 12:36:20 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 281.024 ms
+Wed Apr 01 2026 12:36:22 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 324.581 ms
+Wed Apr 01 2026 12:36:22 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 551.719 ms
+Wed Apr 01 2026 12:36:35 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbac1a984fb0499faba5f 200 - 502.205 ms
+Wed Apr 01 2026 12:36:45 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:36:45 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5308.383 ms
+Wed Apr 01 2026 12:36:53 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 476.876 ms
+Wed Apr 01 2026 12:37:53 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:37:54 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:37:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:37:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:40:45 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 342.379 ms
+Wed Apr 01 2026 12:40:50 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69a901c58dfc42c391c58509 200 - 293.230 ms
+Wed Apr 01 2026 12:41:5 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 266.007 ms
+Wed Apr 01 2026 12:41:8 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 328.714 ms
+Wed Apr 01 2026 12:41:9 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 268.608 ms
+Wed Apr 01 2026 12:41:10 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 336.079 ms
+Wed Apr 01 2026 12:41:11 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 288.780 ms
+Wed Apr 01 2026 12:41:13 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 326.001 ms
+Wed Apr 01 2026 12:41:13 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 274.037 ms
+Wed Apr 01 2026 12:41:15 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccad75cd61c87a2967eaf6 200 - 211.195 ms
+Wed Apr 01 2026 12:42:2 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 324.253 ms
+Wed Apr 01 2026 12:42:2 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 268.723 ms
+Wed Apr 01 2026 12:42:4 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 327.334 ms
+Wed Apr 01 2026 12:42:22 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 274.472 ms
+Wed Apr 01 2026 12:42:22 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 327.781 ms
+Wed Apr 01 2026 12:42:23 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 272.089 ms
+Wed Apr 01 2026 12:42:25 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 323.622 ms
+Wed Apr 01 2026 12:42:25 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 270.803 ms
+Wed Apr 01 2026 12:42:27 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 328.167 ms
+Wed Apr 01 2026 12:42:28 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccad75cd61c87a2967eaf6 200 - 225.135 ms
+Wed Apr 01 2026 12:42:38 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:42:40 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:42:40 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:42:40 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:43:16 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 286.575 ms
+Wed Apr 01 2026 12:43:19 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 329.370 ms
+Wed Apr 01 2026 12:43:20 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 270.956 ms
+Wed Apr 01 2026 12:43:44 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccba14a984fb0499faba32 200 - 216.414 ms
+Wed Apr 01 2026 12:44:38 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbaa1a984fb0499faba52 200 - 221.720 ms
+Wed Apr 01 2026 12:44:48 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:44:48 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5246.317 ms
+Wed Apr 01 2026 12:45:34 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:45:35 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:45:35 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:45:35 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:45:52 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 227.979 ms
+Wed Apr 01 2026 12:47:33 [SERVER-NAME] info: 10.10.7.105 - PATCH /api/v1/registations/verify-event/69ccbedb552ddc7fd9ba95fe 200 - 173.404 ms
+Wed Apr 01 2026 12:47:41 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 339.693 ms
+Wed Apr 01 2026 12:47:42 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 275.085 ms
+Wed Apr 01 2026 12:50:55 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:50:56 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:50:56 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:50:56 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:50:59 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 361.261 ms
+Wed Apr 01 2026 12:51:0 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbac1a984fb0499faba5f 200 - 237.787 ms
+Wed Apr 01 2026 12:51:10 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:51:10 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 6304.230 ms
+Wed Apr 01 2026 12:51:19 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 238.985 ms
+Wed Apr 01 2026 12:51:22 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 234.776 ms
+Wed Apr 01 2026 12:53:0 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:53:2 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:53:2 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:53:2 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:55:36 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:55:38 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:55:38 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:55:38 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:56:10 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 12:56:10 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 12:56:10 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 12:56:10 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 12:56:15 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 318.239 ms
+Wed Apr 01 2026 12:56:20 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 359.373 ms
+Wed Apr 01 2026 12:56:21 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 291.600 ms
+Wed Apr 01 2026 12:56:22 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbac1a984fb0499faba5f 200 - 234.556 ms
+Wed Apr 01 2026 12:56:43 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 351.710 ms
+Wed Apr 01 2026 12:56:43 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 290.617 ms
+Wed Apr 01 2026 12:56:44 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbac1a984fb0499faba5f 200 - 233.347 ms
+Wed Apr 01 2026 12:56:55 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:56:55 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5570.742 ms
+Wed Apr 01 2026 12:57:4 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 245.730 ms
+Wed Apr 01 2026 12:57:15 [SERVER-NAME] info: 10.10.7.34 - PATCH /api/v1/registations/verify-event/69ccbac1a984fb0499faba5f 200 - 185.744 ms
+Wed Apr 01 2026 12:57:23 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 351.403 ms
+Wed Apr 01 2026 12:57:23 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 295.321 ms
+Wed Apr 01 2026 12:57:33 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccbaa1a984fb0499faba52 200 - 235.094 ms
+Wed Apr 01 2026 12:57:43 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 12:57:43 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 5493.737 ms
+Wed Apr 01 2026 12:57:48 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 234.163 ms
+Wed Apr 01 2026 12:57:57 [SERVER-NAME] info: 10.10.7.34 - PATCH /api/v1/registations/verify-event/69ccbaa1a984fb0499faba52 200 - 180.896 ms
+Wed Apr 01 2026 12:58:1 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 357.416 ms
+Wed Apr 01 2026 12:58:2 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 289.767 ms

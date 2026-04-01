@@ -111,10 +111,15 @@ const createEvenRegistration = async (
 // Verify
 const verifyEventRegistrationOTP = async (
      registrationId: string,
-     inputOtp: number
+     inputOtp: number,
+     user: { id: string; role: USER_ROLES }
 ) => {
 
-     const registration = await EvenRegistration.findById(registrationId);
+     const registration = await EvenRegistration.findOne({
+          event: registrationId,
+          user: user.id,
+     });
+     console.log(registration);
 
      if (!registration) {
           throw new AppError(StatusCodes.NOT_FOUND, "Registration not found.");

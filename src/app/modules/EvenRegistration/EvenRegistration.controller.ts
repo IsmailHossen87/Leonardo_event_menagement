@@ -97,7 +97,9 @@ const getEvenRegistrationById = catchAsync(async (req: Request, res: Response) =
 
 const verifyEventRegistration = catchAsync(async (req: Request, res: Response) => {
      const { id } = req.params;
-     const result = await EvenRegistrationService.verifyEventRegistrationOTP(id, req.body.otp);
+     console.log(id, req.body.otp);
+     const result = await EvenRegistrationService.verifyEventRegistrationOTP(id, req.body.otp, req.user as any);
+     console.log(result);
 
      sendResponse(res, {
           statusCode: 200,
