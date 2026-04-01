@@ -1,0 +1,13 @@
+Fri Jan 09 2026 11:51:9 [SERVER-NAME] info: [36m🎨 --------------> Database seeding start <--------------- 🎨[39m
+Fri Jan 09 2026 11:51:9 [SERVER-NAME] error: [31m💥 Error seeding users: 💥[39m Command delete requires authentication
+Fri Jan 09 2026 11:51:9 [SERVER-NAME] info: [32m🎉 --------------> Database seeding completed <--------------- 🎉[39m
+Fri Jan 09 2026 11:51:24 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Fri Jan 09 2026 11:51:24 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Fri Jan 09 2026 11:51:24 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Fri Jan 09 2026 11:51:24 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m
+Fri Jan 09 2026 11:51:31 [SERVER-NAME] info: [36m🎨 --------------> Database seeding start <--------------- 🎨[39m
+Fri Jan 09 2026 11:51:31 [SERVER-NAME] error: [31m💥 Error seeding users: 💥[39m Command delete requires authentication
+Fri Jan 09 2026 11:51:31 [SERVER-NAME] info: [32m🎉 --------------> Database seeding completed <--------------- 🎉[39m
+Fri Jan 09 2026 11:53:25 [SERVER-NAME] info: [36m🎨 --------------> Database seeding start <--------------- 🎨[39m
+Fri Jan 09 2026 11:53:27 [SERVER-NAME] info: [32m✨ --------------> Users seeded successfully <-------------- ✨[39m
+Fri Jan 09 2026 11:53:27 [SERVER-NAME] info: [32m🎉 --------------> Database seeding completed <--------------- 🎉[39m

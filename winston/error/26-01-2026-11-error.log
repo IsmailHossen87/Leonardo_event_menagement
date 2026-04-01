@@ -1,0 +1,15 @@
+Mon Jan 26 2026 11:0:12 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/package 404 - 8.677 ms
+Mon Jan 26 2026 11:0:41 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/package 404 - 7.984 ms
+Mon Jan 26 2026 11:0:44 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/packages 404 - 0.837 ms
+Mon Jan 26 2026 11:0:55 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/packages/create 401 - 1.763 ms
+Mon Jan 26 2026 11:13:23 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 404 - 0.440 ms
+Mon Jan 26 2026 11:13:49 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 401 - 10.730 ms
+Mon Jan 26 2026 11:50:26 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 403 - 81.473 ms
+Mon Jan 26 2026 11:51:25 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/auth/login 400 - 250.208 ms
+Mon Jan 26 2026 11:51:52 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 60.016 ms
+Mon Jan 26 2026 11:52:4 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 57.266 ms
+Mon Jan 26 2026 11:54:3 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 144.021 ms
+Mon Jan 26 2026 11:56:0 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 114.994 ms
+Mon Jan 26 2026 11:56:12 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 115.443 ms
+Mon Jan 26 2026 11:56:44 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 178.801 ms
+Mon Jan 26 2026 11:57:26 [SERVER-NAME] error: 10.10.7.103 - POST /api/v1/subscriptions/create 400 - 153.837 ms

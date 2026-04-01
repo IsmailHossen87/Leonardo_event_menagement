@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\success\\.9851138820acd792a1213d9244567e387d62a0f6-audit.json",
+    "files": [
+        {
+            "date": 1774933979411,
+            "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\success\\31-03-2026-11-success.log",
+            "hash": "5c82cf269af9dfd5ee64487d564dee33f3d1db72579f44409c86956e539e64db"
+        },
+        {
+            "date": 1774998853693,
+            "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\success\\01-04-2026-05-success.log",
+            "hash": "063fa89171b0d5262115171d6e7313028da73053a8d70800ec102943156f1f19"
+        },
+        {
+            "date": 1775017227517,
+            "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\success\\01-04-2026-10-success.log",
+            "hash": "10a2674ea2e9f08437e324a4b6f6674e8845f1d16c0d59e43b5dac88eea8a733"
+        },
+        {
+            "date": 1775019862758,
+            "name": "C:\\ISMAIL\\leonardo_the_vinci\\winston\\success\\01-04-2026-11-success.log",
+            "hash": "62a129e3c74e999a2818757d784764fb651e711abd313f877c4b130a97c039b1"
+        }
+    ],
+    "hashType": "sha256"
+}

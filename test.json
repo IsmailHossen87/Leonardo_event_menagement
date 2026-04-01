@@ -1,0 +1,92 @@
+{
+  "info": {
+    "name": "FAQ Management API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{access_token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://10.10.7.103:7002/api/v1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Create FAQ",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"What is the return policy?\",\n  \"answer\": \"You can return items within 30 days of purchase with a valid receipt.\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/faqs",
+          "host": ["{{baseUrl}}"],
+          "path": ["faqs"]
+        },
+        "description": "Create a new FAQ. Requires ADMIN or SUPER_ADMIN role."
+      }
+    },
+    {
+      "name": "Get All FAQs",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/faqs",
+          "host": ["{{baseUrl}}"],
+          "path": ["faqs"]
+        },
+        "description": "Get all FAQs. Requires ADMIN or SUPER_ADMIN role."
+      }
+    },
+    {
+      "name": "Update FAQ",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"question\": \"Updated question?\",\n  \"answer\": \"Updated answer.\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/faqs/123",
+          "host": ["{{baseUrl}}"],
+          "path": ["faqs", "123"]
+        },
+        "description": "Update an existing FAQ. Requires ADMIN or SUPER_ADMIN role."
+      }
+    },
+    {
+      "name": "Delete FAQ",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "{{baseUrl}}/faqs/123",
+          "host": ["{{baseUrl}}"],
+          "path": ["faqs", "123"]
+        },
+        "description": "Delete an FAQ. Requires ADMIN or SUPER_ADMIN role."
+      }
+    }
+  ]
+}

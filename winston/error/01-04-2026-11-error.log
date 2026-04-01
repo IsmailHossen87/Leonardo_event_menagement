@@ -1,0 +1,8 @@
+Wed Apr 01 2026 11:4:37 [SERVER-NAME] error: 10.10.7.34 - POST /api/v1/registations 404 - 186.890 ms
+Wed Apr 01 2026 11:4:51 [SERVER-NAME] error: 10.10.7.34 - POST /api/v1/registations 404 - 263.002 ms
+Wed Apr 01 2026 11:7:10 [SERVER-NAME] error: 10.10.7.105 - POST /api/v1/registations 400 - 237.496 ms
+Wed Apr 01 2026 11:19:26 [SERVER-NAME] error: 10.10.7.105 - GET /api/v1/registations/my-registation-event/69abe032d457edb3d75b92c5 404 - 29.095 ms
+Wed Apr 01 2026 11:23:45 [SERVER-NAME] error: 10.10.7.105 - POST /api/v1/registations 400 - 270.967 ms
+Wed Apr 01 2026 11:26:33 [SERVER-NAME] error: 10.10.7.105 - POST /api/v1/events 400 - 103.544 ms
+Wed Apr 01 2026 11:27:45 [SERVER-NAME] error: 10.10.7.105 - POST /api/v1/events 400 - 930.977 ms
+Wed Apr 01 2026 11:28:35 [SERVER-NAME] error: 10.10.7.105 - POST /api/v1/events 400 - 959.608 ms

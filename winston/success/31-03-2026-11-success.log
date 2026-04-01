@@ -1,0 +1,6 @@
+Tue Mar 31 2026 11:12:59 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/auth/login 200 - 351.785 ms
+Tue Mar 31 2026 11:15:38 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/auth/login 200 - 274.244 ms
+Tue Mar 31 2026 11:15:39 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 343.950 ms
+Tue Mar 31 2026 11:15:40 [SERVER-NAME] info: 10.10.7.34 - GET /uploads/image/e7c91a2e-b507-45a8-b6ff-97bdb65e335e-1772683717629.jpg 200 - 5.378 ms
+Tue Mar 31 2026 11:17:6 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/events 200 - 1323.726 ms
+Tue Mar 31 2026 11:29:27 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 569.564 ms

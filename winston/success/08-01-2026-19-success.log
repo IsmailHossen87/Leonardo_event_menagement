@@ -1,0 +1,18 @@
+Thu Jan 08 2026 19:17:23 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 19:17:23 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 19:17:23 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 19:17:23 [SERVER-NAME] info: [46m♻️  Application listening on http://192.168.0.104:7002[49m
+Thu Jan 08 2026 19:23:53 [SERVER-NAME] info: 192.168.0.104 - GET / 200 - 9.152 ms
+Thu Jan 08 2026 19:25:11 [SERVER-NAME] info: 192.168.0.104 - POST /api/v1/users 200 - 262.235 ms
+Thu Jan 08 2026 19:27:47 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 19:27:47 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 19:27:47 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 19:27:47 [SERVER-NAME] info: [46m♻️  Application listening on http://192.168.0.104:7002[49m
+Thu Jan 08 2026 19:29:11 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Thu Jan 08 2026 19:29:15 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 19:29:15 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 19:29:15 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 19:29:15 [SERVER-NAME] info: [46m♻️  Application listening on http://192.168.0.104:7002[49m
+Thu Jan 08 2026 19:29:52 [SERVER-NAME] info: 192.168.0.104 - POST /api/v1/auth/resend-otp 200 - 31.447 ms
+Thu Jan 08 2026 19:30:27 [SERVER-NAME] info: Mail send successfully
+Thu Jan 08 2026 19:31:48 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m

@@ -1,0 +1,23 @@
+Thu Jan 08 2026 18:47:49 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 18:47:49 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 18:47:49 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 18:47:49 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m
+Thu Jan 08 2026 18:47:53 [SERVER-NAME] info: 10.10.7.103 - GET / 200 - 12.083 ms
+Thu Jan 08 2026 18:48:33 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 18:48:33 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 18:48:33 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 18:48:33 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m
+Thu Jan 08 2026 18:48:36 [SERVER-NAME] info: 10.10.7.103 - GET / 200 - 15.266 ms
+Thu Jan 08 2026 18:49:48 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 18:49:48 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 18:49:48 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 18:49:48 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m
+Thu Jan 08 2026 18:49:54 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 18:49:54 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 18:49:54 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 18:49:54 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m
+Thu Jan 08 2026 18:50:3 [SERVER-NAME] info: [34mSIGINT received. Shutting down gracefully...[39m
+Thu Jan 08 2026 18:50:7 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Thu Jan 08 2026 18:50:7 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Thu Jan 08 2026 18:50:7 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Thu Jan 08 2026 18:50:7 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m

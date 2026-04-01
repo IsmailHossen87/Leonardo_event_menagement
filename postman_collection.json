@@ -1,0 +1,320 @@
+{
+     "info": {
+          "name": "Leonardo Backend - Basic API Tests",
+          "_postman_id": "leonardo-basic-collection",
+          "description": "Basic Postman collection for testing Leonardo backend APIs.",
+          "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+     },
+     "variable": [
+          {
+               "key": "base_api",
+               "value": "http://10.10.7.103:7002",
+               "type": "string"
+          },
+          {
+               "key": "auth_token",
+               "value": "",
+               "type": "string"
+          }
+     ],
+     "item": [
+          {
+               "name": "Auth - Login",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": {
+                         "mode": "raw",
+                         "raw": "{\n  \"email\": \"user@example.com\",\n  \"password\": \"password123\"\n}"
+                    },
+                    "url": { "raw": "{{base_api}}/auth/login", "host": ["{{base_api}}"], "path": ["auth", "login"] }
+               }
+          },
+          {
+               "name": "Auth - Refresh Token",
+               "request": {
+                    "method": "POST",
+                    "header": [
+                         { "key": "Content-Type", "value": "application/json" },
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" }
+                    ],
+                    "url": { "raw": "{{base_api}}/auth/refresh-token", "host": ["{{base_api}}"], "path": ["auth", "refresh-token"] }
+               }
+          },
+          {
+               "name": "Auth - Forget Password",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": { "mode": "raw", "raw": "{\n  \"email\": \"user@example.com\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/forget-password", "host": ["{{base_api}}"], "path": ["auth", "forget-password"] }
+               }
+          },
+          {
+               "name": "Auth - Verify Email",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": { "mode": "raw", "raw": "{\n  \"email\": \"user@example.com\",\n  \"otp\": \"123456\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/verify-email", "host": ["{{base_api}}"], "path": ["auth", "verify-email"] }
+               }
+          },
+          {
+               "name": "Auth - Reset Password",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": { "mode": "raw", "raw": "{\n  \"token\": \"<resetToken>\",\n  \"password\": \"newPassword123\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/reset-password", "host": ["{{base_api}}"], "path": ["auth", "reset-password"] }
+               }
+          },
+          {
+               "name": "Auth - Dashboard Forget Password",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": { "mode": "raw", "raw": "{\n  \"email\": \"admin@example.com\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/dashboard/forget-password", "host": ["{{base_api}}"], "path": ["auth", "dashboard", "forget-password"] }
+               }
+          },
+          {
+               "name": "Auth - Dashboard Reset Password",
+               "request": {
+                    "method": "POST",
+                    "header": [
+                         { "key": "Content-Type", "value": "application/json" },
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" }
+                    ],
+                    "body": { "mode": "raw", "raw": "{\n  \"userId\": \"<userId>\",\n  \"password\": \"newPassword123\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/dashboard/reset-password", "host": ["{{base_api}}"], "path": ["auth", "dashboard", "reset-password"] }
+               }
+          },
+          {
+               "name": "Auth - Change Password",
+               "request": {
+                    "method": "POST",
+                    "header": [
+                         { "key": "Content-Type", "value": "application/json" },
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" }
+                    ],
+                    "body": { "mode": "raw", "raw": "{\n  \"oldPassword\": \"oldPass123\",\n  \"newPassword\": \"newPass123\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/change-password", "host": ["{{base_api}}"], "path": ["auth", "change-password"] }
+               }
+          },
+          {
+               "name": "Auth - Resend OTP",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": { "mode": "raw", "raw": "{\n  \"email\": \"user@example.com\"\n}" },
+                    "url": { "raw": "{{base_api}}/auth/resend-otp", "host": ["{{base_api}}"], "path": ["auth", "resend-otp"] }
+               }
+          },
+          {
+               "name": "Auth - OAuth: Google (start)",
+               "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": { "raw": "{{base_api}}/auth/google", "host": ["{{base_api}}"], "path": ["auth", "google"] }
+               }
+          },
+          {
+               "name": "Auth - OAuth: Google Callback",
+               "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": { "raw": "{{base_api}}/auth/google/callback", "host": ["{{base_api}}"], "path": ["auth", "google", "callback"] }
+               }
+          },
+          {
+               "name": "Auth - OAuth: Facebook (start)",
+               "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": { "raw": "{{base_api}}/auth/facebook", "host": ["{{base_api}}"], "path": ["auth", "facebook"] }
+               }
+          },
+          {
+               "name": "Auth - OAuth: Facebook Callback",
+               "request": {
+                    "method": "GET",
+                    "header": [],
+                    "url": { "raw": "{{base_api}}/auth/facebook/callback", "host": ["{{base_api}}"], "path": ["auth", "facebook", "callback"] }
+               }
+          },
+
+          {
+               "name": "Users - Get Profile",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/profile", "host": ["{{base_api}}"], "path": ["users", "profile"] }
+               }
+          },
+          {
+               "name": "Users - Update Profile (PATCH)",
+               "request": {
+                    "method": "PATCH",
+                    "header": [
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" },
+                         { "key": "Content-Type", "value": "application/json" }
+                    ],
+                    "body": { "mode": "raw", "raw": "{\n  \"name\": \"New Name\"\n}" },
+                    "url": { "raw": "{{base_api}}/users/profile", "host": ["{{base_api}}"], "path": ["users", "profile"] }
+               }
+          },
+          {
+               "name": "Users - Create User",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Content-Type", "value": "application/json" }],
+                    "body": { "mode": "raw", "raw": "{\n  \"email\": \"newuser@example.com\",\n  \"password\": \"password123\"\n}" },
+                    "url": { "raw": "{{base_api}}/users", "host": ["{{base_api}}"], "path": ["users"] }
+               }
+          },
+          {
+               "name": "Users - Create Admin",
+               "request": {
+                    "method": "POST",
+                    "header": [
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" },
+                         { "key": "Content-Type", "value": "application/json" }
+                    ],
+                    "body": { "mode": "raw", "raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"adminPass123\"\n}" },
+                    "url": { "raw": "{{base_api}}/users/admin", "host": ["{{base_api}}"], "path": ["users", "admin"] }
+               }
+          },
+          {
+               "name": "Users - Find By ID",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/find/id/:id", "host": ["{{base_api}}"], "path": ["users", "find", "id", ":id"] }
+               }
+          },
+          {
+               "name": "Users - Find By Email",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/find/email/:email", "host": ["{{base_api}}"], "path": ["users", "find", "email", ":email"] }
+               }
+          },
+          {
+               "name": "Users - Find By Google ID",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/find/google/:googleId", "host": ["{{base_api}}"], "path": ["users", "find", "google", ":googleId"] }
+               }
+          },
+          {
+               "name": "Users - Find By Facebook ID",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/find/facebook/:facebookId", "host": ["{{base_api}}"], "path": ["users", "find", "facebook", ":facebookId"] }
+               }
+          },
+          {
+               "name": "Users - Get All",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/all", "host": ["{{base_api}}"], "path": ["users", "all"] }
+               }
+          },
+          {
+               "name": "Users - Get By Role",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/role/:role", "host": ["{{base_api}}"], "path": ["users", "role", ":role"] }
+               }
+          },
+          {
+               "name": "Users - OAuth Users",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/oauth", "host": ["{{base_api}}"], "path": ["users", "oauth"] }
+               }
+          },
+          {
+               "name": "Users - Local Users",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/local", "host": ["{{base_api}}"], "path": ["users", "local"] }
+               }
+          },
+          {
+               "name": "Users - Search",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/search", "host": ["{{base_api}}"], "path": ["users", "search"] }
+               }
+          },
+          {
+               "name": "Users - Stats",
+               "request": {
+                    "method": "GET",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/stats", "host": ["{{base_api}}"], "path": ["users", "stats"] }
+               }
+          },
+          {
+               "name": "Users - Link OAuth",
+               "request": {
+                    "method": "POST",
+                    "header": [
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" },
+                         { "key": "Content-Type", "value": "application/json" }
+                    ],
+                    "body": { "mode": "raw", "raw": "{\n  \"provider\": \"google\",\n  \"providerId\": \"<id>\"\n}" },
+                    "url": { "raw": "{{base_api}}/users/:userId/link-oauth", "host": ["{{base_api}}"], "path": ["users", ":userId", "link-oauth"] }
+               }
+          },
+          {
+               "name": "Users - Unlink OAuth",
+               "request": {
+                    "method": "POST",
+                    "header": [{ "key": "Authorization", "value": "Bearer {{auth_token}}" }],
+                    "url": { "raw": "{{base_api}}/users/:userId/unlink-oauth", "host": ["{{base_api}}"], "path": ["users", ":userId", "unlink-oauth"] }
+               }
+          },
+          {
+               "name": "Settings - Add/Update Setting (PUT)",
+               "request": {
+                    "method": "PUT",
+                    "header": [
+                         { "key": "Authorization", "value": "Bearer {{auth_token}}" },
+                         { "key": "Content-Type", "value": "application/json" }
+                    ],
+                    "body": { "mode": "raw", "raw": "{\n  \"key\": \"siteTitle\",\n  \"value\": \"My Site\"\n}" },
+                    "url": { "raw": "{{base_api}}/settings", "host": ["{{base_api}}"], "path": ["settings"] }
+               }
+          },
+          {
+               "name": "Settings - Get All",
+               "request": { "method": "GET", "header": [], "url": { "raw": "{{base_api}}/settings", "host": ["{{base_api}}"], "path": ["settings"] } }
+          },
+          {
+               "name": "Settings - Privacy Policy",
+               "request": { "method": "GET", "header": [], "url": { "raw": "{{base_api}}/settings/privacy-policy", "host": ["{{base_api}}"], "path": ["settings", "privacy-policy"] } }
+          },
+          {
+               "name": "Settings - About Us",
+               "request": { "method": "GET", "header": [], "url": { "raw": "{{base_api}}/settings/aboutus", "host": ["{{base_api}}"], "path": ["settings", "aboutus"] } }
+          },
+          {
+               "name": "Settings - Support",
+               "request": { "method": "GET", "header": [], "url": { "raw": "{{base_api}}/settings/support", "host": ["{{base_api}}"], "path": ["settings", "support"] } }
+          },
+          {
+               "name": "Settings - Terms Of Service",
+               "request": { "method": "GET", "header": [], "url": { "raw": "{{base_api}}/settings/termsOfService", "host": ["{{base_api}}"], "path": ["settings", "termsOfService"] } }
+          }
+     ]
+}

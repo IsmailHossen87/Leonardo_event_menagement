@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "D:\\webLife\\office sta\\leonardo-backend\\winston\\error\\.25547e159344412628c74d3e06800bbc4f17cc8e-audit.json",
+    "files": [
+        {
+            "date": 1767876467704,
+            "name": "D:\\webLife\\office sta\\leonardo-backend\\winston\\error\\08-01-2026-18-error.log",
+            "hash": "cae5f498941cb2a98b339289e039d45e3f5c284d010ed34643c75ad844113a4d"
+        },
+        {
+            "date": 1767878241166,
+            "name": "D:\\webLife\\office sta\\leonardo-backend\\winston\\error\\08-01-2026-19-error.log",
+            "hash": "dd52a5ca93752f02cbf5c2bda2f010e698e49d9dadd0d80f7b5910261c65ba7e"
+        }
+    ],
+    "hashType": "sha256"
+}

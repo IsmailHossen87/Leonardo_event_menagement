@@ -1,0 +1,4 @@
+Mon Jan 26 2026 10:51:1 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Mon Jan 26 2026 10:51:2 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Mon Jan 26 2026 10:51:2 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Mon Jan 26 2026 10:51:2 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.103:7002[49m

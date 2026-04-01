@@ -1,0 +1,4 @@
+Thu Jan 08 2026 19:24:54 [SERVER-NAME] error: 192.168.0.104 - POST /api/v1/users 400 - 33.714 ms
+Thu Jan 08 2026 19:25:13 [SERVER-NAME] error: Email Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-819c59e826asm7856322b3a.54 - gsmtp
+Thu Jan 08 2026 19:29:47 [SERVER-NAME] error: 192.168.0.104 - POST /api/v1/auth/resend-otp 400 - 22.997 ms

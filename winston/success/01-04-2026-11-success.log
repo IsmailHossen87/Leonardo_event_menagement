@@ -1,0 +1,33 @@
+Wed Apr 01 2026 11:4:25 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 11:4:27 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 11:4:27 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 11:4:27 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 11:4:30 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69abe032d457edb3d75b92c5 200 - 585.845 ms
+Wed Apr 01 2026 11:4:42 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69abe032d457edb3d75b92c5 200 - 290.296 ms
+Wed Apr 01 2026 11:6:30 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 11:6:32 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 11:6:32 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 11:6:32 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 11:6:39 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 11:6:39 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 11:6:39 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 11:6:39 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
+Wed Apr 01 2026 11:6:47 [SERVER-NAME] info: Mail send successfully
+Wed Apr 01 2026 11:6:47 [SERVER-NAME] info: 10.10.7.34 - POST /api/v1/registations 200 - 6214.658 ms
+Wed Apr 01 2026 11:6:57 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 566.385 ms
+Wed Apr 01 2026 11:11:38 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 306.058 ms
+Wed Apr 01 2026 11:13:38 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 293.963 ms
+Wed Apr 01 2026 11:13:55 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 294.484 ms
+Wed Apr 01 2026 11:14:12 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 301.740 ms
+Wed Apr 01 2026 11:18:38 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 635.522 ms
+Wed Apr 01 2026 11:19:30 [SERVER-NAME] info: 10.10.7.105 - GET /api/v1/registations/my-registation-event 200 - 533.807 ms
+Wed Apr 01 2026 11:25:36 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/auth/login 200 - 289.081 ms
+Wed Apr 01 2026 11:30:29 [SERVER-NAME] info: 10.10.7.105 - POST /api/v1/events 200 - 657.096 ms
+Wed Apr 01 2026 11:30:34 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=1 200 - 355.403 ms
+Wed Apr 01 2026 11:30:34 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events?page=2 200 - 312.136 ms
+Wed Apr 01 2026 11:30:34 [SERVER-NAME] info: 10.10.7.34 - GET /uploads/image/prescription_-1775021428830.png 200 - 10.219 ms
+Wed Apr 01 2026 11:30:37 [SERVER-NAME] info: 10.10.7.34 - GET /api/v1/events/69ccad75cd61c87a2967eaf6 200 - 233.793 ms
+Wed Apr 01 2026 11:39:37 [SERVER-NAME] info: [32mConfig validation successful.[39m
+Wed Apr 01 2026 11:39:39 [SERVER-NAME] info: [46m🚀 Database connected successfully[49m
+Wed Apr 01 2026 11:39:39 [SERVER-NAME] info: [33m♻️  Socket is listening on same port 7002[39m
+Wed Apr 01 2026 11:39:39 [SERVER-NAME] info: [46m♻️  Application listening on http://10.10.7.104:7002[49m
